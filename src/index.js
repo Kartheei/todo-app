@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <CookiesProvider>
     <React.StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename="todo-app">
         <Provider store={store}>
           <App />
         </Provider>
