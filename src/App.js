@@ -5,7 +5,7 @@ import Login from './components/login';
 import Todo from './components/todo';
 function App() {
   return (
-      <Routes>
+      <Routes basename="todo-app">
         <Route path="/"  element={<Login />} />
         <Route path="/todo"  element={<Todo />} />
       </Routes>
